@@ -1,0 +1,10 @@
+[
+  {
+    "reference": "com.google.android.material.floatingactionbutton.FloatingActionButton",
+    "input": "\u003emain.xml\ncom.google.android.material.floatingactionbutton.ExtendedFloatingActionButton",
+    "distance": 0,
+    "before": 0,
+    "after": 0,
+    "command": "find-replace"
+  }
+]

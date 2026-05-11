@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_play"
+        android:title="play"
+        android:icon="@drawable/ic_play_arrow"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_redo"
+        android:title="redo"
+        android:icon="@drawable/ic_redo"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_undo"
+        android:title="undo"
+        android:icon="@drawable/ic_undo"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_save"
+        android:title="Save"
+        android:icon="@drawable/ic_save"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_show_explerer"
+        android:title="Show explerer"
+        android:icon="@drawable/ic_folder_round"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_see_explerer"
+        android:title="See in explerer"
+        android:icon="@drawable/ic_folder_open_round"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_resources_editor"
+        android:title="Resources editor"
+        android:icon="@drawable/ic_android"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_settings"
+        android:title="Preferensi"
+        android:icon="@drawable/ic_settings_round"
+        app:showAsAction="never" />
+</menu>

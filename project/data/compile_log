@@ -1,0 +1,37 @@
+----------
+1. ERROR in /storage/emulated/0/.sketchware/data/656/files/java/AutoCloseBracketInputConnection.java (at line 26)
+	int selStart = getSelectionStart();
+	               ^^^^^^^^^^^^^^^^^
+The method getSelectionStart() is undefined for the type AutoCloseBracketInputConnection
+----------
+2. ERROR in /storage/emulated/0/.sketchware/data/656/files/java/AutoCloseBracketInputConnection.java (at line 27)
+	int selEnd = getSelectionEnd();
+	             ^^^^^^^^^^^^^^^
+The method getSelectionEnd() is undefined for the type AutoCloseBracketInputConnection
+----------
+3. ERROR in /storage/emulated/0/.sketchware/data/656/files/java/AutoCloseBracketInputConnection.java (at line 30)
+	String selectedText = getText().subSequence(
+	                      ^^^^^^^
+The method getText() is undefined for the type AutoCloseBracketInputConnection
+----------
+4. ERROR in /storage/emulated/0/.sketchware/data/656/files/java/AutoCloseBracketInputConnection.java (at line 35)
+	getText().replace(
+	^^^^^^^
+The method getText() is undefined for the type AutoCloseBracketInputConnection
+----------
+5. ERROR in /storage/emulated/0/.sketchware/data/656/files/java/AutoCloseBracketInputConnection.java (at line 57)
+	int selStart = getSelectionStart();
+	               ^^^^^^^^^^^^^^^^^
+The method getSelectionStart() is undefined for the type AutoCloseBracketInputConnection
+----------
+6. ERROR in /storage/emulated/0/.sketchware/data/656/files/java/AutoCloseBracketInputConnection.java (at line 58)
+	if (selStart > 0 && selStart < getText().length()) {
+	                               ^^^^^^^
+The method getText() is undefined for the type AutoCloseBracketInputConnection
+----------
+7. ERROR in /storage/emulated/0/.sketchware/data/656/files/java/AutoCloseBracketInputConnection.java (at line 59)
+	Editable editable = getText();
+	                    ^^^^^^^
+The method getText() is undefined for the type AutoCloseBracketInputConnection
+----------
+7 problems (7 errors)
